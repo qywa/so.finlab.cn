@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="title" content="">
+		<title>量化金融实验室电子邮件系统</title>
+		<link rel="shortcut icon" href="http://mimg.qiye.163.com/p/vip/dhu/icon.jpg" />
+		<link href="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/global.css" rel="stylesheet" type="text/css" />
+		<link href="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/user.css" rel="stylesheet" type="text/css" />
+		<link href="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/custom.css" rel="stylesheet" type="text/css" />
+		<style type="text/css">
+		.login-mod {
+			height: 288px;
+			left: 505px;
+			padding: 25px 25px;
+			top: 35px;
+			width: 363px;
+		}
+		.login-mod .goto {
+			background-position: 0 -144px;
+			font-size: 14px;
+			margin-top: 10px;
+			padding: 10px 0 0 10px;
+		}
+		.toplinks {
+			float: right;
+			line-height: 80px;
+		}
+		.bg {
+			background-image:url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/bg20120101.gif);
+			background-repeat:no-repeat;
+		}
+		 .login-mod-wrapper {
+			 width: 413px;
+			 height: 355px;
+			 position: absolute;
+			 top:40px;
+			 left: 498px;
+		 }
+		 .login-mod-form {
+			background: url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/loginFormBg.png) no-repeat;
+		 }
+		 .login-mod-qr {
+			background: url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/bg_qr_expand.png) no-repeat;
+		 }
+		 .login-mod .fi-notit {
+			padding-left:30px;
+		 }
+		 .login-qr {
+			 position: absolute;
+			 left: 350px;
+			 top: 291px;
+			 width: 64px;
+			 height: 64px;
+			 cursor: pointer;
+		 }
+		 .login-qr-1 {
+			 background: url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/ic_qr.png) no-repeat;
+		 }
+		 .login-qr-1-hover {
+			 left: 349px;
+			 background: url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/ic_qr_hover.png) no-repeat;
+		 }
+		 .app-download {
+			float:left;
+			margin-left:10px;
+			padding-left:20px;
+			margin-top:6px;
+		 }
+		 .app-download-android {
+			background:url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/ic_android.png) no-repeat;
+		 }
+		 .app-download-iphone {
+			background:url(http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../img/ic_apple.png) no-repeat;
+		 }
+		 .app-download-link {
+			color: #9eb8a0;
+			text-decoration: none;
+		 }
+		 
+		.logo {
+		    background: rgba(0, 0, 0, 0) url("http://w.finlab.cn/static/images/logo/logo.gif") no-repeat scroll 0 0;
+		    height: 64px;
+		    width: 295px;
+		    margin: 20px 30px 20px 0;
+		}
+		
+		</style>
+		<!--[if lt ie 9]>
+		<style type="text/css">
+		.logo {
+			background: none; 
+			filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://mimg.qiye.163.com/p/vip/dhu/login_0.png', sizingMethod='scale');
+		}
+		</style>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="page">
+			<div class="header">
+				<h1 class="logo"></h1>
+				<div class="toplinks">
+					<!--a target="_self" onclick="change_lang('tw');" href="/?hl=zh_TW" id="lang_tw">繁體版</a> 
+					<a target="_self" onclick="change_lang('en');" href="/?hl=en_US" id="lang_en">English</a> 
+					<a href="http://qiye.163.com/service-solution.htm">帮助</a>
+					<a target="_self" onclick="change_lang('ch');" href="/?hl=zh_CN" style="display:none;" id="lang_ch">简体版</a-->
+			</div>
+			</div>
+			<div class="body">
+				<div class="part main-part" id="main-part">
+					<div id="login-mod-wrapper" class="login-mod-wrapper login-mod-form">
+						<div class="mod login-mod ">
+							<form name="loginform" id="loginform" action="https://entryhz.qiye.163.com/domain/domainEntLogin" method="post" onsubmit="Check();">
+								<input type="hidden" name="ch" id="ch"/>
+								<input type="hidden" value="0" name="language" id="language">
+
+								<input type="hidden" value="http://202.120.144.25/?q=base" name="go">
+								<input type="hidden" value="zh_CN" name="lang">
+								<input type="hidden" value="2" name="login_ssl">
+								<input type="hidden" value="http://202.120.144.25/user/?code=5" name="referer">
+
+								<h2>
+									<em class="ico"></em>
+									<div id="user_login_title">用户登录</div>
+								</h2>
+								<div class="fi">
+									<label id="account_name_label" class="tit">
+										用户名
+									</label>
+									<input type="text" value="" class="ipt-t" id="account_name" name="account_name">
+								</div>
+								<div class="fi">
+									<label id="domain_label" class="tit"> 域名 </label> 
+									<select id="domain" name="domain" class="ipt-t" onchange="ChangeAction();">
+										<!--option value="dhu.edu.cn">dhu.edu.cn</option>
+										<option value="mail.dhu.edu.cn">mail.dhu.edu.cn</option-->
+										<option value="vip.finlab.cn">vip.finlab.cn</option>
+									</select>
+								</div>
+								<div class="fi">
+									<label id="password_label" class="tit">
+										密 码
+									</label>
+									<input type="password" value="" id="password" name="password" class="ipt-t">
+								</div>
+								<div class="fi">
+									<input type="checkbox" class="ipt-c" value="1" id="remUsername" name="remUser">
+									<label id="remUsername_label" for="remUsername">
+										记住用户名
+									</label>
+									&nbsp;
+									<input type="checkbox" class="ipt-c" checked="" value="1" id="secure" name="secure">
+									<label id="secure_label" for="secure">
+										SSL安全登录
+									</label>
+									&nbsp;
+									<!--input type="checkbox" class="ipt-c" value="1" id="all_secure" name="all_secure">
+									<label id="all_secure_label" for="all_secure">
+										全程SSL
+									</label>		
+									<a target="_blank" href="http://qiye.163.com/service-solution.htm#4"><img alt="点击查看帮助" src="http://mimg.qiye.163.com/xm/qiye/index_res/img/help.gif"></a-->
+								</div>
+								<div class="fi fi-notit f-cb">
+									<input type="submit" style="float:left;" value="登&#12288;录" class="ipt-b" id="btn_login">
+								 <!--div id="app-download-wrapper">
+								 <div class="app-download app-download-android">
+								 <a target="_blank" href="http://u.163.com/androidds4" class="app-download-link">Android版</a>&nbsp;
+								 </div>
+								 <div class="app-download app-download-iphone">
+								 <a target="_blank" href="http://u.163.com/iosds4" class="app-download-link">iPhone版</a>
+								 </div>
+								 </div-->
+								</div>
+								<!--div class="goto">
+										<a id="resetPwd" class="gotoLink">忘记密码？</a>
+										<a id="user_register" href="http://mail.dhu.edu.cn/dhu/register.jsp" class="gotoLink">用户注册</a>
+								</div-->
+								</form>
+						</div>
+				 <div id="login-qr-1" class="login-qr login-qr-1"></div>
+				 </div>
+				 <div id="login-mod-qr" class="login-mod-wrapper login-mod-qr f-dn">
+				 <div id="login-qr-2" class="login-qr"></div>
+				 </div>
+				</div>
+				<div class="part sec-part">
+						</div>
+				</div>
+				<div class="footer">
+				 <div class="link">
+
+				 </div>
+
+				 <div class="right">
+				 <!--span>
+ 
+ 东华大学信息化办公室 版权所有 中国上海，201620，(86-21)67792054 
+ </span-->
+ </div>
+ </div>
+		</div>
+	</body>
+	<!--script type="text/javascript">
+		function ChangeAction(){
+			var domain=document.getElementById("domain").value;
+			if (domain=="mail.dhu.edu.cn"){//网易学生域
+				 document.getElementById("loginform").action="https://entryhz.qiye.163.com/domain/domainEntLogin";
+				 document.getElementById("account_name").name="account_name";
+			} else if (domain=="dhu.edu.cn"){//网易教师域
+				 document.getElementById("loginform").action="https://entryhz.qiye.163.com/domain/domainEntLogin";
+				 document.getElementById("account_name").name="account_name";
+			} else if (domain=="teacher.dhu.edu.cn"){//亿邮学生域
+				document.getElementById("loginform").action="http://202.120.144.25/user/?q=login.do";
+				 document.getElementById("account_name").name="user";
+			}
+		}
+		function Check(){//亿邮需要检查后缀
+			var domain=document.getElementById("domain").value;
+			if (domain=="teacher.dhu.edu.cn"){
+				 document.getElementById("account_name").value=document.getElementById("account_name").value + "@teacher.dhu.edu.cn";
+			}  http://mailhz.qiye.163.com/qiyeimage/bg/hmail_yaolushan_tk/1439190874976.jpg
+		} http://www.hbue.edu.cn/_upload/tpl/00/3a/58/template58/images/201501160420391.jpg
+	</script-->
+	<script type="text/javascript">
+		var isDefaultBg = false,
+		currentBanner = './bg_3.jpg',
+		currentStyle = '3',
+		addresses = '',
+		errMsg = '',
+		domainType = 'hz' || 'bj';
+	</script>
+	<!--script type="text/javascript">
+		function getQueryString(name) {
+			var reg = new RegExp("(^|&amp;)" + name + "=([^&amp;]*)(&amp;|$)", "i");
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null) return unescape(r[2]); return null;
+		}
+
+		function change_lang(type){
+			if(type == "ch"){
+				document.getElementById("lang_ch").style.display="none";
+				document.getElementById("lang_en").style.display="";
+				document.getElementById("lang_tw").style.display="";
+
+				document.getElementById("account_name_label").innerHTML = "用户名";
+				document.getElementById("password_label").innerHTML = "密码";
+				document.getElementById("domain_label").innerHTML = "域名";
+				document.getElementById("remUsername_label").innerHTML = "记住用户名";
+				document.getElementById("secure_label").innerHTML = "SSL安全登录";
+				document.getElementById("all_secure_label").innerHTML = "全程SSL";
+				document.getElementById("btn_login").value = "登 录";
+
+				
+				document.getElementById("resetPwd").innerHTML = "忘记密码？";
+				document.getElementById("language").value = "0";
+				document.getElementById("user_login_title").innerHTML = "用户登录";
+				document.getElementById("user_register").innerHTML = "用户注册";
+			}
+			if(type == "en"){
+				document.getElementById("lang_ch").style.display="";
+				document.getElementById("lang_en").style.display="none";
+				document.getElementById("lang_tw").style.display="";
+
+				document.getElementById("account_name_label").innerHTML = "Username";
+				document.getElementById("password_label").innerHTML = "Password";
+				document.getElementById("domain_label").innerHTML = "Domain";
+				document.getElementById("remUsername_label").innerHTML = "Remember Username";
+				document.getElementById("secure_label").innerHTML = "SSL login";
+				document.getElementById("all_secure_label").innerHTML = "ALL SSL";
+				document.getElementById("btn_login").value = "Sign in";
+
+				
+				document.getElementById("resetPwd").innerHTML = "Forget Password？";
+				document.getElementById("language").value = "1";
+				document.getElementById("user_login_title").innerHTML = "User Login";
+				document.getElementById("user_register").innerHTML = "User Register";
+			}
+			if(type == "tw"){
+				document.getElementById("lang_ch").style.display="";
+				document.getElementById("lang_en").style.display="";
+				document.getElementById("lang_tw").style.display="none";
+
+				document.getElementById("account_name_label").innerHTML = "用戶名";
+				document.getElementById("password_label").innerHTML = "密碼";
+				document.getElementById("domain_label").innerHTML = "域名";
+				document.getElementById("remUsername_label").innerHTML = "記住用戶名";
+				document.getElementById("secure_label").innerHTML = "SSL安全登錄";
+				document.getElementById("all_secure_label").innerHTML = "全程SSL";
+				document.getElementById("btn_login").value = "登 錄";
+
+				
+				document.getElementById("resetPwd").innerHTML = "忘記密碼？";
+				document.getElementById("language").value = "2";
+				document.getElementById("user_login_title").innerHTML = "用戶登錄";
+				document.getElementById("user_register").innerHTML = "用戶註冊";
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		var lang = getQueryString("hl");
+		if("zh_TW" == lang)
+			change_lang('tw');
+		if("en_US" == lang)
+			change_lang('en');
+		if("zh_CN" == lang)
+			change_lang('ch');
+	</script-->
+	<script type="text/javascript" src="http://mail.qiye.163.com/js/loginjs.jsp"></script>
+	<script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/jquery.js"></script>
+	<script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/jquery-migrate.js"></script>
+	<script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/lang_en.js"></script>
+	<script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/select_network.js"></script>
+	<script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/login_util.js"></script>
+ <script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/select_banner.js"></script>
+ <script type="text/javascript" src="http://mimghz.qiye.163.com/o/domain/201410101500/index/css/../js/reset_pwd.js"></script>
+</html>
