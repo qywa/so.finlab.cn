@@ -1,0 +1,9 @@
+latex VMOS-jwcn
+bibtex VMOS-jwcn
+latex VMOS-jwcn
+latex VMOS-jwcn
+dvips -t letter VMOS-jwcn
+ps2pdf VMOS-jwcn.ps VMOS-springer.pdf
+
+
+del *.dvi *.aux *.bbl *.blg *.out *.thm *.toc *.lof *.fen *.toe *.lot *.ten *.log *.synctex *.loa /s

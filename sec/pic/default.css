@@ -1,0 +1,58 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+input,img,select{vertical-align:middle;}
+a img{ border: 0; }
+.clear{ clear: both; } 
+
+
+/*共有样式定义*/
+a{ color: #000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+input,select {font-size:14px; vertical-align:middle;}
+.redFont {color:#FF0000;}
+.orgFont {color:#FF9900}
+.tabBg {width:360px; border-bottom:1px solid #D2AF8D; position:relative; height:25px;}
+.tabBg ul { position:absolute; top:0px; left:0px; overflow:hidden; width:288px;}
+.tabBg ul li {float:left; border:1px solid #D2AF8D; background:#EDE2C2; padding:0px 6px 5px 6px; margin-left:4px; cursor:pointer;}
+.tabBg ul li.tabChecked {border-bottom:1px solid #FFF; background:#FFF; font-weight:bold;}
+.webLinkTable td{border-bottom:1px dotted #C8C8C8; padding-bottom:6px; padding-top:6px; font-size:12px;}
+.webLinkTable td a.webMore{no-repeat; color:#F87D03; padding-left:15px;}
+.hbShow {display:;}
+.hbHidden {display:none;}
+/*首页内容样式*/
+#pageMain {clear:both; padding-top:10px; width:1024px; margin:0px auto; font-size:12px;}
+#pageMain h4 {font-size:12px;}
+.indexInfo {width:1024px; height:360px; overflow:hidden;}
+.indexInfo .cjwellWeb {width:648px; float:left; border:1px solid #EBDBCB;}
+.indexInfo .cjwellWeb h4{font-weight:normal;color:#8F2A07; background:url(http://img.hexun.com/finance/20090820/index_webbg.jpg) repeat-x; border-bottom:1px solid #E5E5E5;}
+.indexInfo .cjwellWeb h4 span {display:block; background:url(http://img.hexun.com/finance/20090820/cjmz.jpg) no-repeat; padding:18px 0px 12px 130px;}
+.indexInfo .cjwellWeb .webData {padding:10px 5px 15px 5px; border-bottom:1px solid #EBDBCB;}
+.indexInfo .cjwellWeb .webData ul { height:365px; overflow:hidden;}
+.indexInfo .cjwellWeb .webData ul li {float:left; border-bottom:1px dashed #CFCECE; width:110px; padding-left:16px; padding-top:7px; padding-bottom:7px;}
+.indexInfo .cjwellWeb .webData ul li a {font-size:14px;}
+.indexInfo .cjwellWeb .webBottom { clear:left;background:url(http://img.hexun.com/finance/20090820/webbottom.jpg) repeat-x;}
+.indexInfo .cjwellWeb .webBottom ul {background:url(http://img.hexun.com/finance/20090820/ulbg.jpg) no-repeat; padding-left:130px; padding-top:20px; height:57px; overflow:hidden;}
+.indexInfo .cjwellWeb .webBottom ul li {float:left; white-space:nowrap; padding:5px 10px 5px 10px;}
+.indexInfo .cjTool {float:right; width:365px;}
+.indexInfo .cjTool h4 { no-repeat; padding:13px 10px 5px 32px;background-position:13px 12px;}
+.indexInfo .cjTool .bankTool { no-repeat;}
+.bankTool .selectBorder { margin-top:10px; margin-left:0px;border:1px solid #D2AF8D; display:block; width:360px; height:20px; overflow:hidden;}
+.bankTool .selectBorder select {border:0px; width:360px; height:20px; margin:-1px;}
+.bankTool p {padding-left:10px; padding-top:10px;}
+.bankTool p a {padding:0px 20px; color:#FD7601}
+.cjTool .queryTool { no-repeat; background-position:0px -96px; margin-top:15px;}
+.cjTool .queryTool .queryTable{ border:1px solid #D2AF8D; margin:0; width:360px;}
+.cjTool .queryTool .queryTable ul li {float:left; background:#EDE2C2; border-right:1px solid #D2AF8D; border-bottom:1px solid #D2AF8D; text-align:center; width:65px; padding-bottom:4px; padding-top:4px; cursor:pointer;}
+.cjTool .queryTool .queryTable ul li.queryChecked {background:#FFF; border-bottom:1px solid #FFF;}
+.cjTool .queryTool .queryTable ul li.queryEnd { border-right:0px;}
+.cjTool .queryTool .queryTable p { clear:left;padding:6px 5px 10px 5px; *padding-top:3px;_padding-top:6px;}
+.cjTool .queryTool input,select{vertical-align:middle; margin-left:3px; margin-right:3px;}
+.cjTool .queryTool select {width:80px;}
+.queryInput{ border:1px solid #D2AF8D; height:18px; line-height:18px; width:103px; color:#666;}
+.cjTool .oftenInfo { margin-top:10px; padding-top:10px; padding-left:0px;}
+.cjTool .oftenInfo .oftenTable { border:1px solid #D2AF8D;width:365px;}
+.cjTool .oftenInfo .oftenTable ul li {float:left; border-right:1px solid #D2AF8D; background:#EDE2C2; border-bottom:1px solid #D2AF8D; text-align:center; padding-bottom:6px; padding-top:6px; width:182px; cursor:pointer;}
+.cjTool .oftenInfo .oftenTable ul li.oftenChecked {font-weight:bold; background:#FFF; border-bottom:1px solid #FFF;}
+.cjTool .oftenInfo .oftenTable ul li.oftenEnd { border-right:0px;}
+.cjTool .oftenInfo .oftenTable p { clear:both;overflow:hidden; width:380px; padding-top:15px; margin-left:0px; height:250px;}
+.cjTool .oftenInfo .oftenTable p a { display:block; text-align:center; float:left; width:122px;padding:5px 0px 5px 0px;weight:365px;}

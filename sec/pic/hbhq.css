@@ -1,0 +1,97 @@
+/* CSS Document */
+/*=layout*/
+.col1,.col2,.col3,.col12,.col23{zoom:1;float:left;display:inline;overflow:hidden;}
+.col2{width:252px;}
+.col3{width:280px; overflow:hidden;}
+.col{width:50%;float:left;}
+/*=通用类*/
+.mod,.tabmod{zoom:1;position:relative;clear:both;margin-bottom:10px;padding-top:2px;border:1px solid #e4e4e4;border-top:0;background:url(http://img.hexun.com/r/finance/v2/img/mod_bg1.gif) left top repeat-x;}
+.mod .cnt,.tabmod .cnt{padding:3px;clear:both;}
+.mod h3{height:24px;line-height:24px;padding-left:10px;}
+.md2 h3{background:url(http://img.hexun.com/r/finance/v2/img/h3_2.gif) left top repeat-x;}
+.tabmod h3 a{padding-right:10px;background:url(http://img.hexun.com/r/finance/v2/img/more.gif) right center no-repeat;}
+.c{clear:both;}
+.dotline{margin:6px 0;height:1px;overflow:hidden;clear:both;background:url(http://img.hexun.com/r/finance/v2/img/dl.gif) left top repeat-x;}
+.mb10{margin-bottom:10px;}
+.hide{display:none;}
+.client{clear:both;margin:0 auto;text-align:center;zoom:1;margin-bottom:10px;}
+td.up{color:#9e1818;}
+td.down{color:#1c9432;}
+.col3 .tabmod h3 span{width:128px;}
+.col3 .tabmod h3 span.nb{width:129px;border-right:0;}
+.tm1 h3 span.cur{background:url(http://img.hexun.com/r/finance/v2/img/tabmod.gif) 0 -24px repeat-x;}
+.tm1 h3 span{background:url(http://img.hexun.com/r/finance/v2/img/tabmod.gif) 0 0 repeat-x;border-color:#ccc;}
+.tm2 h3 span.cur{background:url(http://img.hexun.com/r/finance/v2/img/tabmod.gif) 0 -72px repeat-x;}
+.tm2 h3 span{background:url(http://img.hexun.com/r/finance/v2/img/tabmod.gif) 0 -48px repeat-x;border-color:#f1cea4;}
+/*=kline*/
+.kline span{cursor:pointer;width:54px;border-right:1px solid #f00;float:left;text-align:center;height:19px;line-height:19px;}
+.kline span.nb{width:58px;border-right:0;}
+.kline span.cur{cursor:default;font-weight:bold;}
+.kl_1 span{color:#05b;border-color:#cdcdcd;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 0 repeat-x;}
+.kl_1 span.cur{color:#000;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 -19px repeat-x;}
+.kl_2 span{color:#05b;border-color:#f1cea4;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 -84px repeat-x;}
+.kl_2 span.cur{color:#000;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 -103px repeat-x;}
+#market{zoom:1;}
+#market .cnt{clear:both;padding-left:4px;padding-bottom:0;height:198px;overflow:hidden;margin-top:2px;}
+#market td{font-size:11px;color:#666;font-weight:bold;text-align:center;}
+#market td.name{font-size:12px;font-weight:normal;}
+#market .up{color:#9e1818;}
+#market .down{color:#1c9432;}
+/*#market td{padding:3px 0;border-top:1px solid #ccc;}*/
+#market td{padding:1px 0 1px 0;border-top:1px solid #ccc;}
+#market .block td{border:0;}
+#market .nb td{border-top:0;}
+#market td div{height:0;overflow:hidden;text-align:left;}
+#market td div.show{height:118px;overflow:hidden;}
+#market .kline a:link,#market .kline a:visited{color:#05b}
+#sf2{padding-left:10px;height:30px;padding-top:4px;border-top:1px solid #e2e2e2;background:#cdcdcd url(http://img.hexun.com/r/finance/v2/img/sf2.gif) 0 0 repeat-x;}
+/*=行高*/
+.lh2{line-height:18px;}
+/*=颜色*/
+.c1{color:#000;}
+.c2{color:#666;}
+.c3{color:#c40000;}
+.lc2 a,.lc2 a:link{color:#666;}
+/*hacks*/
+/*自选股*/
+#sl{width:252px;border:1px solid #99bce6;background:#fff;}
+#sl .tabs {overflow:hidden;}
+#sl .tabs a:visited{color:#05b;}
+#sl .tabs span{cursor:pointer;color:#05b;text-align:center;height:20px;line-height:20px;float:left;width:83px;border-right:1px solid #99bce6;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 -42px repeat-x;}
+#sl .tabs span.cur{cursor:default;color:#000;background:url(http://img.hexun.com/r/finance/v2/img/tabs.gif) 0 -62px repeat-x;}
+#sl .tabs span.nb{width:84px;border-right:0;}
+#sl .tmod{margin:10px;margin-top:6px;}
+#sl th{text-align:left;border-bottom:2px solid #c2c2c2;}
+#sl td{padding:4px 0;border-bottom:1px solid #e0e0e0;}
+/*更新时的颜色变化*/
+.onChangeRed{ background:#FF6F72}
+.onChangeGreen{ background:#A3FF9D}
+#group1 div{height:28px;}
+.col1 {color:#666;}
+.col1 .mod h3{background:url(http://img.hexun.com/r/finance/v2/img/h3_1.gif) no-repeat;}
+.col2 .mod h3{background:url(http://img.hexun.com/r/finance/v2/img/h2_2.gif) no-repeat;}
+/*调整高度*/
+#col1 .hot{margin-bottom:8px;}
+#col1 .dotline{margin:6px 0 6px 0;+margin-bottom:7px;}
+#col2  div[class = dotline]{margin:10px 0 9px 0;+margin:7px 0;}
+.client table{margin:0 auto;text-align:left;}
+
+
+
+#suggest1{background:#fff;}
+	#suggest1 p{border-top:1px solid #999;padding:6px 0;text-align:center;}
+	.suggest_panel table{width:100%;border-collapse:collapse;}
+	.suggest_panel td{text-align:left;font-size:12px;padding:4px;font-size:14px;cursor:pointer;}
+	.suggest_panel td em{font-style:normal;font-weight:bold;}
+	.suggest_panel tr.cur td{background:#f6f6f6;color:#000;}
+	.suggest_panel{background:#fff;border:1px solid #999;}
+
+
+
+/*新加行情图修改*/
+.onChangeRed{ background:#FF6F72}
+.onChangeGreen{ background:#A3FF9D}
+.upRed{ color:#FF0000;}
+.downGreen { color:#008000}
+.upRedArrow{background:url(http://img.hexun.com/finance/up.gif) 0px center no-repeat; color:#FF0000;padding-left:12px;}
+.downGreenArrow {background:url(http://img.hexun.com/finance/down.gif) 0px center no-repeat; color:#008000;padding-left:12px;}

@@ -1,0 +1,52 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+input,img,select{vertical-align:middle;}
+a img{ border: 0; }
+.clear{ clear: both; }
+/* head123 */
+#cjtop{ width: 1024px; margin:0 auto; overflow: hidden; font-size: 12px; line-height: 22px; }
+#cjtop a{ color: #002b8d; text-decoration: none; }
+#cjtop a:hover { text-decoration: underline; }
+#cjtop .top01{ background: url(http://www.ijinrong.com/pic/cjt_bg01.gif) repeat-x left bottom;height: 27px; margin-top: 5px; }
+#cjtop .top01 dt{ float: left; padding: 0 0 0 20px; }
+#cjtop .top01 dd{ float: right; color: #6a6a6a; padding: 0 30px 0 0; }
+#cjtop .top01 dd a{ color: #6a6a6a; }
+#cjtop .top02{ margin: 3px 0 0 0; overflow: hidden; height: 68px; }
+#cjtop .top02 dt{ float: left; padding: 14px 15px 0 10px; }
+#cjtop .top02 dd{ float: right; padding: 14px 28px 0 8px; }
+#cjtop .top03{ background: url(http://www.ijinrong.com/pic/cjt_bg02.gif) repeat-x left top; height: 52px; overflow: hidden; }
+#cjtop .top03 .ulnav{ float: left; padding: 0 0 0 15px; }
+#cjtop .top03 .ulnav a{ background:url(http://www.ijinrong.com/pic/cjt_bg04.gif) no-repeat right top; padding: 0 12px; color: #fff; line-height: 52px; float: left; }
+#cjtop .top03 .ulnav a.no{ background: none; }
+#cjtop .top03 .ulnav a.on,#cjtop .top03 .ulnav a:hover{ background: url(http://www.ijinrong.com/pic/cjt_bg03.gif) repeat-x left top; text-decoration: none; }
+/* search */
+#zttop{ background: url(http://www.ijinrong.com/pic/cjt_line.gif) no-repeat 0 0; padding: 0 40px 0 50px; float:right; width: 320px; overflow:hidden; }
+#zttop dt{ float: left; }
+#zttop dd{ float: right; width: 315px; overflow: hidden; font-size: 12px; }
+#zttop ul{ padding: 0; margin: 0; list-style: none; }
+#zttop li{ height: 22px; padding: 0; margin: 0; list-style: none; }
+#zttop li.a{ font-weight: bolder; color: #fff; line-height: 18px; padding: 7px 0 0 0; height: 18px; }
+#zttop li.a a{ color: #fff; text-decoration: none; font-weight: normal; margin-right: 4px;  }
+#zttop li.b{ font-size: 12px; padding: 0 0 3px 0; }
+#zttop li.b a{ color: #0033cd; text-decoration: underline; font-size: 12px; }
+#zttop .inp{ border: 0; padding: 0 0 0 1px; font-size: 14px; width: 232px; margin: 0; }
+#zttop .but{ width: 76px; height: 18px;font-size: 12px; line-height: 18px;cursor: pointer; border: 0; background: url(http://www.ijinrong.com/pic/cjt_search.gif) no-repeat 0 0; color: #fff; padding: 0 0 0 16px; font-weight: bold; }
+#codeSC {Z-INDEX: 8888; POSITION: absolute}
+#codeSC .codeS-content {BORDER-RIGHT: #e8e8e8 1px solid; PADDING-RIGHT: 0.5em; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 0.5em; FONT-SIZE: 92%; BACKGROUND: #fefefe; LEFT: 0px; PADDING-BOTTOM: 0.5em; OVERFLOW: hidden; BORDER-LEFT: #e8e8e8 1px solid; WIDTH: 20em; PADDING-TOP: 0.5em; BORDER-BOTTOM: #e8e8e8 1px solid; POSITION: absolute; TOP: 0px; TEXT-ALIGN: left}
+#codeSC .codeS-footer {FONT-SIZE: 85%; FONT-FAMILY: Verdana, sans-serif}
+#codeSC .codeS-footer {PADDING-RIGHT: 0px; BORDER-TOP: #d6d6d6 1px solid; MARGIN-TOP: 0.48em; PADDING-LEFT: 0.4em; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0.5em; FONT-FAMILY: "Arial Black"}
+#codeSC EM {FONT-WEIGHT: bold; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif}
+#codeSC .codeS-footer A {COLOR: #003399}
+#codeSC UL {PADDING-BOTTOM: 0.4em; WIDTH: 100%}
+#codeSC LI {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: default; PADDING-TOP: 0px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none}
+#codeSC LI.codeS-whenHighlight {BACKGROUND: #f2f2f2; CURSOR: pointer}
+#codeSC LI TABLE {WIDTH: 100%}
+#codeSC LI TD {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.15em; VERTICAL-ALIGN: bottom; PADDING-TOP: 0.15em; TEXT-ALIGN: left}
+#codeSC LI TD.code_part {FONT: 14px "ËÎÌו"; WIDTH: 10em; TEXT-ALIGN: left}
+#codeSC LI TD.name_part {FONT: 14px "ËÎÌו"; WIDTH: 22em; TEXT-ALIGN: left}
+#codeSC LI TD.pinyin_part {FONT-SIZE: 15px; WIDTH: 5em; COLOR: #000000; FONT-FAMILY: "ËÎÌו"; TEXT-ALIGN: right}
+/* bottom */
+#ztbottom{ padding:30px 0 20px 0; text-align:center; color:#4f473a; width: 960px; margin: 0 auto; font-size: 12px;}
+#ztbottom a{ color:#4f473a;  }
+
+

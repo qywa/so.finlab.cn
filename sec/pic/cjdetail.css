@@ -1,0 +1,50 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a img{ border: 0; }
+.clear{ clear: both; }
+a{ color: #000; text-decoration: none; }
+a:hover {  color: #cc0000;text-decoration: underline; }
+/* main */
+#cjwrap{ width: 960px; margin: 0 auto; overflow: hidden; font-size: 12px; }
+#cjwrap .main{ width: 958px; border: #ebdbcb 1px solid; margin: 0 auto; margin-top: 10px; background: url(http://www.ijinrong.com/pic/er_bg.gif) repeat-y 0 0; }
+.cjleft{ width:300px; float: left; overflow: hidden; padding: 0px 5px 10px 5px }
+.cjright{ width: 630px; float: left; padding: 10px 0 30px 10px; overflow: hidden; }
+.cjright01{ width: 640px; float: left; padding:1px 0 30px 1px; overflow: hidden; }
+.cjright02{ width: 646px; float: left; padding:1px 0 30px 1px; overflow: hidden; }
+.zw_tit{ background: url(http://www.ijinrong.com/pic/er_bg01.gif) repeat-x left bottom;height: 32px; overflow: hidden; }
+.zw_tit dt{ float: left; font-size: 20px; color: #a35235; line-height: 32px; font-family: "黑体"; padding: 0 0 0 14px; }
+.zw_tit dt a{ color: #a35235; }
+.zw_tit dd{ float: left; line-height: 32px; }
+.zw_tit dd a{ padding: 0 0 0 28px; }
+.zw_tit01{ height: 26px; overflow: hidden; }
+.zw_tit01 dt{ background: url(http://www.ijinrong.com/pic/er_bg03.gif) no-repeat 0 0; padding: 1px 0 0 18px; font-size: 12px; font-weight: bold; }
+.zw_tit01 dd{ float: right; }
+.zw_tit02{ height: 25px; overflow: hidden; background: url(http://www.ijinrong.com/pic/er_bg05.gif) no-repeat 0 0; }
+.zw_tit02 dt{ font-weight: bold; color: #fff; padding: 0 0 0 10px; line-height: 25px; }
+.zw_tit03{ background: url(http://www.ijinrong.com/pic/er_bg06.gif) repeat-x left top; line-height: 26px; padding: 5px 6px 4px 6px; }
+.zw_tit03 b{ color: #f16202; }
+.zw_p01{ background: url(http://www.ijinrong.com/pic/er_bg02.gif) no-repeat 0 0; padding: 10px 10px 0 15px; margin-top: 10px; }
+.zw_p02{ background: url(http://www.ijinrong.com/pic/er_bg021.gif) no-repeat 0 0; padding: 10px 10px 0 15px; margin-top: 10px; }
+.zw_p03{ padding: 10px 10px 0 10px; }
+.zwinp{ border: #d2af8d 1px solid; font-size: 14px; color: #5f5f5e; }
+.zwred{ padding: 7px 0 0px 0; }
+.zwred,.zwred a{ color: #fd7601; }
+.zwul01{ float: left; width: 100%; }
+.zwul01 li{ width: 120px; height: 22px; overflow: hidden; float: left; background: url(http://www.ijinrong.com/pic/er_bg04.gif) no-repeat 6px 6px; padding: 0 0 0 16px; }
+.zwtab td{ font-size: 12px; border-bottom: #ccc 1px dotted; padding: 3px 3px 0 3px; line-height: 22px; }
+/* 理财万能查询css */
+.cyggm{ border:#d2af8d 1px solid; line-height: 20px; }
+.cyggtit td span{ width:1px; overflow:hidden; background:#d2af8d; display:block}
+.hbtagn02,.hbtagf02{ text-align:center; cursor:pointer;}
+.hbtagf02{ background:#fff; border-bottom:0; }
+.hbtagn02{ background:#ede2c2; border-bottom:#d2af8d 1px solid; border-left:none;  }
+.hbHidden{display:none}
+.hbShow{display:block}
+.hbinp02{ border:#d3af8b 1px solid;padding:3px 0 1px 2px; color:#666; font-size:12px;}
+.hbinp03{ border:#d3af8b 1px solid; font-size:12px;  }
+.hbbut02{ background:url(http://www.ijinrong.com/pic/zwbut.gif) no-repeat 0 0; border:0; width:61px; height:19px; text-align:center; font-size:12px; line-height:19px; cursor:pointer;}
+
+
+
+

@@ -1,0 +1,131 @@
+如何确定关键词
+
+检索用到的关键词一般为实词。为了提高检索效率，在检索前必须确定明确的关键词，请勿直接使用“句子”进行检索。在确定关键词前，请考虑同义词和词性的问题。虽然谷歌学术会帮你拓展同义词和词性，但是在头脑中形成这样的信息检索思路有助于你获取信息。在草稿纸上进行头脑风暴，有助于确定关键词。
+
+04
+
+普通检索
+
+普通的检索直接输入关键词就可以了。这种检索比较简单，适合探索性地检索，即没有特定的目的，仅仅粗略地获取信息。但是，通过这种检索方式获取信息较为低效。建议使用限定词和检索符进行检索。在进行普通检索时，搜索引擎默认将用空格分隔的词作为同时需要满足的条件（即“并”）。例如：
+
+emotion regulation 等同于 emotion+regulation 或者 emotion AND regulation
+
+05
+
+高级检索
+
+高级检索可点击搜索框右侧的倒三角形按钮打开
+
+06
+
+如何定位作者
+
+🔶 英文文献使用拉丁字母，中文文献使用中文
+
+🔶 可以使用全称，也可以使用简称，全称更准确，简称较模糊。需要注意，外国人的名字还包括 middle name，所以有必要考虑 middle name，让检索更精确。
+
+🔶 使用双引号（英文半角引号）包括姓名：
+
+author:"james gross"
+
+author:"j gross"
+
+author:"jj gross"
+
+author:("jj gross" OR "james gross")
+
+🔶 或者手动使用搜索选项：搜索框右侧倒三角形按钮
+
+06
+
+如何限定标题？
+
+intitle:"emotion regulation"
+
+intitle:("emotion regulation" AND "emotion dysregulation")
+
+intitle:((emotion OR mood OR affect) AND (regulation OR dysregulation))
+
+07
+
+如何限定期刊？
+
+谷歌学术没有针对期刊的限定词，但是可以在高级搜索框中在期刊输入框中输入对应的期刊进行检索。需要检索多个期刊时使用双引号包裹期刊名，使用 OR 逻辑符来分隔多个由双引号包裹的期刊名。例如：
+
+"emotion" OR "cognition and emotion"
+
+或者直接搜索框中输入
+
+("emotion" OR "cognition and emotion")
+
+但是这样往往不准确，因为是在任何位置匹配字段。也可以通过在网址加上查询期刊的参数：
+
+https://scholar.google.com/scholar?hl=en&q=key+words&as_publication="journal+of+one+field"+OR+"journal+of+other+fields"
+
+&as_publication= 后就是指定的期刊。
+
+08
+
+如何排除关键词？
+
+使用减号可以排出给定的关键词：
+
+intitle:(emotion -mood)
+
+此时，只显示标题包含 emotion 的结果，而不显示标题包含 mood 的结果
+
+09
+
+如何限定年份
+
+🔶 直接通过左边栏的年份选项去选择。
+
+🔶 在搜索框输入年份检索（不推荐）。
+
+10
+
+如何检索多个并列的关键词
+
+使用 OR () "" 来构建多个并列检索词，例如：
+
+(emotion OR mood OR affect)
+
+或者
+
+("emotion regulation" OR "affect regulation" OR "emotion control")
+
+其实这个时候并不需要 ()来进行包括，也同样有效。
+
+11
+
+如何使用 AND 逻辑符
+
+通过 AND 可以设定必须出现的关键词，加上 OR 就可以进行更为强大的检索。例如：
+
+(emotion OR mood OR affect) AND (erp OR eeg OR meg OR fmri OR "functional MRI")
+
+12
+
+如何限定支持全文获取的文献
+
+🔶 如果条目右侧没有出现 pdf 字样，不要认为就没有全文链接。点击进入 所有 n 个版本 链接查看是否有全文链接。
+
+🔶 仅限定可获取全文的条目：
+
+filetype:pdf
+
+filetype:pdf (emotion AND mood AND affect)
+
+13
+
+最后来一个更复杂的例子
+
+filetype:pdf 2015 (intitle:"emotion regulation" OR intitle:"emotion control" OR intitle:"cognitive reappraisal" OR intitle:"emotion suppression") AND (intitle:erp OR intitle:eeg OR intitle:meg OR intile:fmri OR intitle:"functional MRI" OR intitle:electroencephalography OR intitle:"event related potential" OR intitle:magnetoencephalography)
+
+当我这样去检索时，发现了一个错误，搜索框的字段被自动截断了。我亲自数了下有多少个字符，发现剩余 256 个字符。这说明检索条件的字符长度是有限制的。这也说明谷歌学术仅仅提供了有限的检索功能。
+
+精简一下：
+
+filetype:pdf intitle:("regulation" OR "control") AND intitle:emotion AND (erp OR eeg OR meg OR fmri OR "functional MRI" OR electroencephalography OR "event related potential" OR magnetoencephalography)
+
+总而言之，结合这几个特殊符号："", ( ), OR, AND, intitle:, author: 就可以组合出各种检索条件。
