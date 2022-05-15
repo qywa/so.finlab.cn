@@ -1,1 +1,1 @@
-# xueshu.finlab.cn
+# so.finlab.cn
